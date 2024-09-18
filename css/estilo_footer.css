@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    display: flex;
+
+}
+.caja_footer{
+
+    width: 100%;
+    height: 43vh;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    display: flex;
+    flex-flow:column row;
+    justify-content: start;
+    padding-top: 50px;
+    position: absolute;
+    top: 350px;
+   
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    display: flex;
+    margin: 10px;
+}
+.caja1{
+    width: 40%;
+    height:30vh;
+    justify-content: center;
+    margin-left: 10px;
+    column-gap: 15vh;
+    display: flex;
+
+}
+
+.caja2{
+width: 60%;
+height: 100px;
+
+justify-content: center;
+position: relative;
+left: 18vh;
+
+}
+
+
+.caja3{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    position:absolute;
+    bottom: 0;
+    align-self: flex-end;
+    justify-content:start;
+
+
+}
+
+.iconos{
+    display: inline;
+    position: relative;
+    left: 41vw;
+
+}
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+.copyright{
+    position: relative;
+    align-items: center;
+    margin-left: 12vh;
+}
+
+
+.subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rellenar{
+    color: white;
+    background-color: rgb(29, 28, 28);
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border: white px;
+    border-radius: 5px;
+}
+.botton2{
+    background-color: rgb(64, 114, 221);
+    padding: 10px;
+    border-style: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(243, 240, 240);
+    cursor: pointer;
+}
+.botton2:hover{
+    background-color: rgb(72, 208, 34);
+}
